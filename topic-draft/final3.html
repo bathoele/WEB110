@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="top">
+    <header>
+      <nav>
+        <ul>
+          <a href="final1.html"><li>Home</li></a>
+          <a href="final2.html"><li>Issue</li></a>
+          <a href="final3.html"><li>Form</li></a>
+          <a href="final4.html"><li>Credits</li></a>
+        </ul>
+      </nav>
+      <h1 id="title">Form</h1>
+      <p id="subtitle">Tell us a little about yourself!</p>
+    </header>
+    <div id="wrapper">
+      <main>
+        <form name="sample" method="post" id="sample" action="demo.php">
+          <div class="form-center">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+          </div>
+          <br><br>
+          <div class="section">
+            <label>What most closely describes your reading experience?</label>
+            <input type="radio" id="squarepants" name="sponge" value="squarepants">
+            <label for="squarepants">I have never read a book voluntarily.</label><br>
+            <input type="radio" id="roundpants" name="sponge" value="roundpants">
+            <label for="roundpants">I have read a handful of books.</label><br>
+            <input type="radio" id="cubepants" name="sponge" value="cubepants">
+            <label for="cubepants">I read occasionally.</label><br>
+            <input type="radio" id="cubepants" name="sponge" value="cubepants">
+            <label for="cubepants">I read every day.</label>
+          </div>
+          <br><br>
+          <div class="section">
+            <label>What genres have you read?</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+            <label for="hobby1">Non-fiction</label><br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="sports">
+            <label for="hobby2">Romance</label><br>
+            <input type="checkbox" id="hobby3" name="hobbies" value="traveling">
+            <label for="hobby3">Fantasy/Sci-fi</label><br>
+            <input type="checkbox" id="hobby4" name="hobbies" value="traveling">
+            <label for="hobby4">Thriller/Horror</label><br>
+            <input type="checkbox" id="hobby5" name="hobbies" value="traveling">
+            <label for="hobby4">Mystery</label><br>
+            <input type="checkbox" id="hobby4" name="hobbies" value="traveling">
+            <label for="hobby4">Historical Fiction</label><br>
+            <input type="checkbox" id="hobby4" name="hobbies" value="traveling">
+            <label for="hobby4">Other...</label>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <label for="color">If you had to write a book yourself, what genre would you choose?</label>
+            <select id="color" name="color">
+              <option value="red">Non-fiction</option>
+              <option value="blue">Romance</option>
+              <option value="green">Fantasy</option>
+              <option value="red">Science Fiction</option>
+              <option value="red">Thriller</option>
+              <option value="red">Horror</option>
+              <option value="blue">Mystery</option>
+              <option value="green">Historical Fiction</option>
+              <option value="green">Other...</option>
+            </select>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <label for="message">What is your favorite book?</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Book 0_0"></textarea>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer>
+      <div id="to-top">
+        <a href="#top">
+          <p>Back to top</p>
+        </a>
+      </div>
+      <div>
+        Copyright &copy; 2024 Brendan Thoele
+        <br>
+        <a href="mailto:brendanathoele@gmail.com" target="_blank">brendanathoele@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+</html>
