@@ -19,7 +19,7 @@ nav ul {
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   display: grid;
   grid-template-columns: repeat(2, 49%);
@@ -28,13 +28,21 @@ nav ul {
 }
 
 a li {
-  border: solid;
-  border-radius: 7px;
   height: 2em;
   text-align: center;
-  padding-top: .25em;
-  color: black;
+  padding-top: .4em;
+  color: white;
+}
+
+a li:hover {
+  border: solid white 1px;
+  border-radius: 2px;
+}
+
+.current {
   background-color: white;
+  color: black;
+  border-radius: 2px;
 }
 
 ul a {
@@ -44,9 +52,9 @@ ul a {
 
 header {
   text-align: center;
-  background-image: url(./images/art-sample1.jpg);
   background-repeat: no-repeat;
-  background-size: 42em;
+  background-image: url(./images/hero1.jpg);
+  background-size: 57em;
   background-position: 50% 20%;
   margin: 0px;
   margin-bottom: 2em;
@@ -109,6 +117,22 @@ header {
   text-align: center;
 }
 
+.form-center button {
+  height: 2.5em;
+  width: 30%;
+  max-width: 8em;
+  margin-bottom: 5em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.form-center button:first-of-type {
+  background-color: darkred;
+}
+
 select {
   margin-top: .5em;
 }
@@ -160,15 +184,24 @@ footer a {
 }
 
 #to-top {
-  background-color: blue;
+  background-color: wheat;
   height: 4em;
   margin-bottom: 2em;
+}
+
+#to-top a {
+  color: black;
+  font-weight: 700;
 }
 
 #to-top a p {
   height: 100%;
   padding-top: 1.5em;
 }
+
+/* TTTTAAAABBBBLLLLEEEETTTT */
+/* TTTTAAAABBBBLLLLEEEETTTT */
+/* TTTTAAAABBBBLLLLEEEETTTT */
 
 @media screen and (min-width: 450px) {
   nav ul {
@@ -186,15 +219,19 @@ footer a {
 
   a li {
     height: 2.5em;
-    padding-top: 6px;
+    padding-top: .6em;
   }
 
   header {
     padding-top: 2em;
     padding-bottom: 6em;
-    background-size: 150%;
+    background-size: 160%;
   }
 }
+
+/* DDDEEESSSKKKTTTOOOPPP */
+/* DDDEEESSSKKKTTTOOOPPP */
+/* DDDEEESSSKKKTTTOOOPPP */
 
 @media screen and (min-width: 800px) {
   #title {
@@ -209,6 +246,10 @@ footer a {
     max-width: 40em;
     height: 4em;
     padding-top: 1.2em;
+  }
+
+  a li {
+    padding-top: .6em;
   }
   
   header {
@@ -244,5 +285,19 @@ footer a {
   .issue p {
     line-height: 2em;
     letter-spacing: .1px;
+  }
+
+  .form-center label {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .section label:first-of-type {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  form .section {
+    max-width: 22em;
   }
 }
