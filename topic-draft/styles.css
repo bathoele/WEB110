@@ -36,6 +36,8 @@ a li {
 
 a li:hover {
   border: solid white 1px;
+  border-left: solid white 3px;
+  border-right: solid white 3px;
   border-radius: 2px;
 }
 
@@ -225,7 +227,7 @@ footer a {
   header {
     padding-top: 2em;
     padding-bottom: 6em;
-    background-size: 160%;
+    background-size: 190%;
   }
 }
 
